@@ -49,8 +49,8 @@ cmake_ninja_workdir = /Users/chenzhengqing/Desktop/C_review/cmake-build-debug/
 
 build cmake_object_order_depends_target_C_exercise: phony || CMakeFiles/C_exercise.dir
 
-build CMakeFiles/C_exercise.dir/3_scanf_func.c.o: C_COMPILER__C_exercise_Debug /Users/chenzhengqing/Desktop/C_review/3_scanf_func.c || cmake_object_order_depends_target_C_exercise
-  DEP_FILE = CMakeFiles/C_exercise.dir/3_scanf_func.c.o.d
+build CMakeFiles/C_exercise.dir/5_loop.c.o: C_COMPILER__C_exercise_Debug /Users/chenzhengqing/Desktop/C_review/5_loop.c || cmake_object_order_depends_target_C_exercise
+  DEP_FILE = CMakeFiles/C_exercise.dir/5_loop.c.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fcolor-diagnostics -std=gnu11
   OBJECT_DIR = CMakeFiles/C_exercise.dir
   OBJECT_FILE_DIR = CMakeFiles/C_exercise.dir
@@ -63,7 +63,7 @@ build CMakeFiles/C_exercise.dir/3_scanf_func.c.o: C_COMPILER__C_exercise_Debug /
 #############################################
 # Link the executable C_exercise
 
-build C_exercise: C_EXECUTABLE_LINKER__C_exercise_Debug CMakeFiles/C_exercise.dir/3_scanf_func.c.o
+build C_exercise: C_EXECUTABLE_LINKER__C_exercise_Debug CMakeFiles/C_exercise.dir/5_loop.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/C_exercise.dir
   POST_BUILD = :
